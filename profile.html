@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="with=device-width, initial- scale=1.0">
+    <title>درب</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reset</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap" rel="stylesheet">
+
+</head>
+<body> 
+        <nav> <div class="img">
+            <a href="index.php"><img src="images/darbb.jpeg"></a>
+        </div>
+            <div class="nav-links" id="navLinks">  
+                
+                <ul>
+                    <div class="dropdown">
+                        <button class="dropbtn">المزيد</button>
+                        <div class="dropdown-content">
+                            <a href="#">من نحن؟</a>
+                            <a href="add.php">اضافة مكتب</a>
+                            <a href="#">الخرائط التوضيحية</a>
+                        </div>
+                    </div>
+                    <li><a href="login.html">تسجيل دخول</a></li>
+                    <li><a href="index.php">الصفحة الرئيسية</a></li>
+                </ul>
+            </div>
+          
+        </nav>
+
+        <section class="header">
+        <div class="box">
+ 
+            <h1>تغيير كلمة المرور</h1>
+ 
+            <div class="profile">
+ 
+                <label for="password">كلمة المرور الحالية</label>
+ 
+              <input type="text" id="oldPass">
+ 
+              <label for="password">كلمة المرور الجديدة</label>
+ 
+              <input type="text" id="newPass">
+ 
+              <label for="password">تأكيد كلمة المرور</label>
+ 
+              <input type="text" id="confirm">
+ 
+              <div class="oprofile">
+ 
+                <button id="change" onclick="change()">تغيير</button>
+ 
+                <button id="cancel" onclick="cancel()">إلغاء</button>
+ 
+                <p id="Error"></p>
+ 
+              </div>
+ 
+            </div>
+ 
+         
+ 
+        <script src="change.js"></script>
+ 
+
+        
+    </section>
+</body>
+</html>
